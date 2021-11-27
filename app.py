@@ -8,6 +8,8 @@ from flask_cors import CORS
 #pip install Flask
 #pip install flask_restful
 #pip install flask_cors
+#pip install cerberus
+#pip install marshmallow
 #app.secret_key = 'myawesomesecretkey'
 app = Flask(__name__)
 api = Api(app)
